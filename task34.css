@@ -1,0 +1,13 @@
+.bor{
+    border:7px solid white;
+}
+
+.custom-shadow {
+    box-shadow: 0 0 12px red;
+}
+@media(max-width:600px){
+    .c1{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

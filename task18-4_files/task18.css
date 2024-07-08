@@ -1,0 +1,267 @@
+.header-1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+}
+
+.header-2 {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.first {
+
+    background-color: blue;
+}
+
+.pra1 {
+    margin: 40px;
+
+    font-size: 30px;
+}
+
+@keyframes color1 {
+    from {
+        background-color: black
+    }
+
+    to {
+        background-color: whitesmoke
+    }
+}
+
+
+.cir {
+    background-color: black;
+    border-radius: 50%;
+    height: 23%;
+    width: 22%;
+
+    margin-bottom: 10px;
+
+
+
+
+}
+.f1:hover .cir {
+    background-color: black;
+    animation-name: color1;
+    animation-duration: 1s;
+}
+.f2:hover .cir {
+    background-color: black;
+    animation-name: color1;
+    animation-duration: 1s;
+}
+.f3:hover .cir {
+    background-color: black;
+    animation-name: color1;
+    animation-duration: 1s;
+}
+
+.f4:hover .cir {
+    background-color: black;
+    animation-name: color1;
+    animation-duration: 1s;
+}
+
+
+@keyframes color {
+    from {
+        background-color: rgb(102, 140, 255)
+    }
+
+    to {
+        background-color: palegreen
+    }
+}
+
+.b1 {
+
+    height: 190px;
+    padding-bottom: 3px;
+}
+
+.f4:hover .b1 {
+    background-color: rgb(102, 140, 255);
+    animation-name: color;
+    animation-duration: 1s;
+}
+.f3:hover .b1 {
+    background-color: rgb(102, 140, 255);
+    animation-name: color;
+    animation-duration: 1s;
+}
+.f2:hover .b1 {
+    background-color: rgb(102, 140, 255);
+    animation-name: color;
+    animation-duration: 1s;
+}
+
+.f1:hover .b1 {
+    background-color: rgb(102, 140, 255);
+    animation-name: color;
+    animation-duration: 1s;
+}
+
+
+
+.f1 {
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: rgb(38, 255, 0);
+
+}
+
+.f2 {
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 0, 217);
+
+}
+
+.f3 {
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 0, 4);
+
+}
+
+.f4 {
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: blue;
+
+}
+
+
+
+@media screen and (min-device-width: 0px) and (max-device-width: 320px) { 
+ .f1{
+    width: 80%;
+ }
+ .t1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+ .sadsh{
+    width: 80%;
+    margin-bottom: 20px;
+ }
+ 
+ 
+}
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) { 
+    .f1{
+       width: 80%;
+    }
+    .t1 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   
+   }
+    .sadsh{
+       width: 80%;
+       margin-bottom: 20px;
+    }
+    .f22{
+        width:280px;
+    }
+    .f44{
+        width:280px;
+    }
+    .ps{
+       margin-right: 11px;
+       text-align: center;
+    }
+    .ms{
+        border-radius: 50%;
+        height: 23%;
+        width: 20%;
+    }
+   
+   }
+   @media screen and (min-device-width: 376px) and (max-device-width: 425px) { 
+    .f1{
+       width: 80%;
+    }
+    .t1 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   
+   }
+    .sadsh{
+       width: 70%;
+       margin-bottom: 20px;
+    }
+    .f22{
+        width:280px;
+    }
+    .f44{
+        width:280px;
+    }
+    .ps{
+       margin-right: 11px;
+       text-align: center;
+    }
+    .ms{
+        border-radius: 50%;
+        height: 23%;
+        width: 20%;
+    }
+   .ml{
+    width:280px;
+   }
+   }
+   @media screen and (min-device-width: 426px) and (max-device-width: 768px) { 
+    .f1{
+       width: 80%;
+    }
+    .t1 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   
+   }
+    .sadsh{
+       width: 50%;
+       margin-bottom: 20px;
+    }
+    .f22{
+        width:280px;
+    }
+    .f44{
+        width:280px;
+    }
+    .ps{
+       margin-right: 11px;
+       text-align: center;
+    }
+    .ms{
+        border-radius: 50%;
+        height: 23%;
+        width: 20%;
+    }
+   .ml{
+    width:280px;
+   }
+   .ts{
+    margin-bottom: 10px;
+   }
+   }

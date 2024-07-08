@@ -1,0 +1,119 @@
+.footer-info-1{
+    color:white;
+    font-size:20px;
+    font-weight: bolder;
+}
+.footer-info-3{
+    color:white;
+}
+.text-2{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 1px;
+}
+.tex{
+    text-align: right;
+    line-height: 8px;
+}
+.fotter-info-11{
+    color:white;
+}
+.fa-facebook-f{
+    color:white;
+    background-color: palevioletred;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+}
+.fa-twitter{
+    color:white;
+    background-color: palevioletred;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+}
+.fa-instagram{
+    color:white;
+    background-color: palevioletred;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+}
+.fa-linkedin-in{
+    color:white;
+    background-color: palevioletred;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+}
+.per-details{
+    color:white;
+}
+@media screen and (min-device-width:0px) and (max-device-width: 375px) { 
+.ml{
+    text-align: center;
+}
+.mobile-s{
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+    width:100%;
+}
+   
+}
+@media screen and (min-device-width:376px) and (max-device-width: 768px) {
+.ls{
+    text-align: center;
+}
+.ts{
+    text-align: center;
+    width: 100%;
+}
+
+
+ }
+ @media  (min-width:769px) {
+    .input-group {
+        width: 500px;
+    }
+ }
+ 
+.line{
+    border-bottom: 1px solid rgb(39, 39, 39);
+}
+.fotter-info-last{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.newseletter-footer {
+    position: relative;
+}
+
+.newseletter-footer .form-control {
+    padding-right: 110px;
+}
+
+.newseletter-footer .newseletter-btn {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border-radius: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 5;
+}

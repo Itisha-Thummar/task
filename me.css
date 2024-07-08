@@ -1,0 +1,221 @@
+.back{
+    width: 100%;
+     background-color: rgb(31, 6, 53); /* For browsers that do not support gradients */
+     background-image: linear-gradient(to right, rgb(68, 6, 96), rgb(50, 16, 54), rgb(99, 23, 99), rgb(12, 35, 33), rgb(14, 99, 82), rgb(36, 112, 126), rgb(2, 15, 16));
+    margin-top: 20px;
+ }
+
+iframe {
+max-width: 100%;
+}
+
+ .first img{
+    
+    
+    height: 120px;
+    width: 120px;
+   border:2px solid white;
+ }
+ .text
+ {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+ }
+ .text-1{
+    font-size: 15px;
+    font-weight: 400;
+    color:white;
+ }
+ .link{
+    background-color: white;
+    margin-right: 8px;
+ }
+
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+}
+.t{
+    font-weight: bolder;
+    color: black;
+    margin-top: 20px;               
+}
+ .box6{
+    display:flex;
+    flex-direction: row;
+ }
+ .per{
+    color: gray;
+    font-size: 13px;
+    font-weight: bolder;
+ }
+ .occ{
+    color:black;
+    font-weight: 600;
+ }
+ .del-1{
+    color: gray;
+font-size: 15px;
+ }
+ .sk{
+    color: black;
+    font-weight: 600;
+ }
+ .del-2{
+    color: gray;
+  font-size: 15px;
+ }
+ .bir{
+    color: black;
+    font-weight: 600;
+ }
+ .del-3{
+    color: gray;
+font-size: 15px;
+ }
+ .con{
+    color: black;
+    font-weight: 600;
+ }
+ .del-4{
+    color: gray;
+font-size: 15px;
+ }
+ .add{
+    color: black;
+    font-weight: 600;
+ }
+ .del-5{
+    color: gray;
+font-size: 15px;
+ }
+ .pho{
+    color: black;
+    font-weight: 600;
+ }
+ .del-6{
+    color: gray;
+font-size: 15px;
+ }
+ .frd{
+    color: rgb(125, 122, 122);
+ }
+ .my img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+ }
+ .pic{
+    display: inline-block;
+ }
+ .footer{
+  background-color:rgb(5, 137, 106);
+  
+  
+}
+.footer-cls{
+
+  margin-top: 20px;
+  width: 100%;
+
+ 
+}
+
+
+.text-111{
+ 
+  color:white;
+ margin-top: 30px;
+  font-weight: bolder;
+  
+}
+.text-222{
+  
+  color:white;
+  margin-top: 30px;
+  font-weight: bolder;
+
+}
+.text-333{
+  
+  color:white;
+  margin-top: 30px;
+  font-weight: bolder;
+
+}
+.fa-facebook-f{
+  color:white;
+  padding-right: 8px;
+  
+}
+.fa-twitter{
+  color:white;
+  padding-right: 8px;
+}
+.fa-instagram{
+  color:white;
+  padding-right: 8px;
+}
+.fa-google-plus-g{
+  color:white;
+  padding-right: 8px;
+}
+.fa-envelope{
+  color:white;
+  padding-right: 8px;
+}
+.icon{
+display: inline-block;
+padding-top: 20px;
+
+}
+#Layer_1{
+fill:white;
+height: 10px;
+width: 10px;
+}
+.faq{
+padding-right: 15px;
+}
+.get{
+padding-left: 40px;
+}
+.navdiv{
+border-color: white;
+background-color:black;
+
+width: 100%;
+line-height: 40px;
+display: inline-block;
+border:12px solid rgb(255, 255, 255);
+
+}
+
+.container-fuild {
+padding: 0 15px;
+}
+@media only screen and (max-width: 767px) {
+.boxes {
+    flex-wrap: wrap;
+}
+
+.boxes iframe {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+}
+.navdiv a:hover{
+
+    background-color:rgb(112, 216, 145);
+      
+    }

@@ -1,0 +1,65 @@
+.first img{
+            
+    border-radius: 50%;
+    height: 190px;
+    width: 140px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 100px;
+   margin-left: 100px;
+   
+  
+  
+    }
+    .back{
+        
+            height: 200px;
+            width: 355px;
+            background-color: rgb(31, 6, 53); /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right, rgb(52, 5, 74), rgb(101, 24, 109), rgb(147, 12, 93), rgb(117, 50, 105), rgb(17, 17, 53), indigo, rgb(44, 1, 44));
+            margin-top: 20px;
+    }
+    .text-1{
+        font-size:20px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+    .text-11{
+        padding-left: 125px;
+        font-size: 15px;
+    }
+    .pra-1{
+        text-align: center;
+        font-size: 12px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    .detail{
+        display: inline-block;
+    }
+    .follow{
+        line-height: 4px;
+        
+        font-weight: bolder;
+        color: white;
+        padding-top: 18px;
+    }
+    .follow-1{
+        line-height: 4px;
+        color: white;
+        font-weight: bolder;
+        padding-top: 18px;
+    }
+    .follow-2{
+        line-height: 4px;
+        padding-right: 20px;
+        font-weight: bolder;
+        color: white;
+        padding-top: 18px;
+    }
+    .con{
+        background-color: rgb(11, 2, 33);
+        box-sizing: border-box;
+    }

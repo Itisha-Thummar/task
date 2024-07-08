@@ -1,0 +1,50 @@
+body{
+    background-color: #eee;
+}
+h1{
+    font-size: 63px;
+    text-align: center;
+    
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+}
+.first
+{
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 1px;
+    font-size: 14px;
+    
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    left:30%;
+    top:46%;
+    padding:30px;
+    
+    height: 400px;
+    width:400px;
+
+}
+.second{
+    font-size: 14px;
+    background-color:lightgrey;
+    text-align: center;
+    line-height: 30px;
+    
+}
+ul,li{
+    font-size: 14px;
+}
+.f1{
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 1px;
+}

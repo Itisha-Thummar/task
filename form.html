@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="pb-4" style="background-color: rgb(222, 236, 245);">
+    <div class="shadow-sm p-3 mb-5 bg-white rounded ms-4 me-4">
+        <div class="d-flex flex-row flex-wrap">
+            <div class="flex-column">
+            <div class="man-image">
+                <img src="man.jpg" alt="">
+            </div>
+        </div>
+            <div class="flex-column">
+                <div class="text-dark fs-4 fw-bolder ps-3">
+                    Dr. Bhaskra Sharma
+                </div>
+                <div class="text-dark ps-3">
+                    DRAD5a505
+                </div>
+            </div>
+            
+            <div class="flex-column c1">
+            <i class="fa-solid fa-pen"></i></div>
+            </div>
+       
+        <div class="d-flex flex-row mt-2 flex-wrap">
+            <div class="button">
+                <button type="button" class="btn btn-primary text-white">Doctor Profile</button>
+                <button type="button" class="btn bg-light text-dark">General information</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--personal information-->
+    <div class="text-dark fs-3 fw-bolder ps-4">
+        Personal information
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded ms-4 me-4">
+        <div class="d-flex flex-row flex-wrap">
+            <!--title-->
+            <div class="col-md-1">
+                <label for="inputTitle" class="form-label fw-bolder">Title</label>
+                <select id="inputTitle" class="form-select" style="background-color: rgb(211, 234, 249);">
+                    <option selected>Dr</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+        <!--firstname-->
+        <div class="d-flex flex-row ">
+            <div class="col-12 mt-2">
+                <label for="inputFirstname" class="form-label fw-bolder">First Name</label>
+                <input type="text" class="form-control " style="background-color: rgb(211, 234, 249);" id="inputfirstname" placeholder="Enter Your First Name">
+            </div>
+        </div>
+        <!--lastname-->
+        <div class="d-flex flex-row">
+            <div class="col-12 mt-2">
+                <label for="inputLastname" class="form-label fw-bolder">Last Name</label>
+                <input type="text" class="form-control" id="inputLastname" style="background-color: rgb(211, 234, 249);" placeholder="Enter Your Last Name">
+            </div>
+        </div>
+        <!--Email-->
+        <div class="d-flex flex-row">
+            <div class="col-12 mt-2">
+                <label for="inputEmail4" class="form-label fw-bolder">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" style="background-color: rgb(211, 234, 249);" placeholder="example@gamil.com">
+            </div>
+        </div>
+        <!--gender-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputgender4" class="form-label fw-bolder">Gender</label>
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <div class="form-check">
+
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Male
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Female
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    others
+                </label>
+            </div>
+        </div>
+
+        <!--mobile no-->
+        <div class="d-flex flex-row mt-2 flex-wrap">
+            <label for="inputMobilenumber" class="form-label fw-bolder">Mobile Number</label>
+        </div>
+        <div class="d-flex flex-row ">
+            <!--title-->
+            <div class="col-md-1 me-2">
+
+                <select id="inputMobilenumber" class="form-select" style="background-color: rgb(211, 234, 249);">
+                    <option selected>+91</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-11 ">
+
+                <input type="number" class="form-control  me-2" id="inputnumber"  style="background-color: rgb(211, 234, 249);" placeholder="0000000000000">
+            </div>
+        </div>
+
+        <!--date of birthday-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputDateofbirthdat" class="form-label fw-bolder">Date Of Birthday</label>
+        </div>
+        <div class="d-flex flex-row ">
+            <input type="date" id="birthday" class="form-control " style="background-color: rgb(211, 234, 249);" name="birthday">
+        </div>
+        <!--Address-->
+        <div class="d-flex flex-row">
+            <div class="col-12 mt-2">
+                <label for="inputAddress" class="form-label fw-bolder">Address</label>
+                <input type="text" class="form-control" id="inputAddress"  style="background-color: rgb(211, 234, 249);" placeholder="Manli Residency Nikol Ahemdabad">
+            </div>
+        </div>
+        <!--State-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputState" class="form-label fw-bolder">State</label>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="col-12">
+
+                <select id="inputState" class="form-select" style="background-color: rgb(211, 234, 249);">
+                    <option selected>Select your State</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+        <!--City-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputCity" class="form-label fw-bolder">City</label>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="col-12">
+
+                <select id="inputCity" class="form-select" style="background-color: rgb(211, 234, 249);">
+                    <option selected>Select your City</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+        <!--pin code-->
+        <div class="d-flex flex-row">
+            <div class="col-12 mt-2">
+                <label for="inputPincode" class="form-label fw-bolder">Pincode</label>
+                <input type="no"  style="background-color: rgb(211, 234, 249);" class="form-control" id="inputPincode" placeholder="Enter Your Last Name">
+            </div>
+        </div>
+
+        <!--addhar card-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputAadharcard" class="form-label fw-bolder">Aadhar Card</label>
+        </div>
+        <div class="d-flex flex-row mb-2">
+            <div class="newseletter-footer input-group mb-3">
+                   
+                <input type="text" class="form-control "  style="background-color: rgb(211, 234, 249);" placeholder="Upload your adhar card" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <button class="btn btn-light text-primary newseletter-btn btn-sm p1" type="button" id="button-addon2">Upload</button>
+              
+            </div>
+        </div>
+
+    </div>
+
+    <div class="d-flex flex-row">
+        <div class="text-dark fs-3 fw-bolder ps-4 mb-1">
+            Professional information
+        </div>
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded ms-4 me-4">
+        <!--registren id-->
+        <div class="d-flex flex-row">
+            <div class="col-12 mt-2">
+                <label for="inputRegisterid" class="form-label fw-bolder">Register id</label>
+                <input type="text" class="form-control" style="background-color: rgb(211, 234, 249);" id="inputRegisterid" placeholder="Enter Your Register id">
+            </div>
+        </div>
+        <!--year of register-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputState" class="form-label fw-bolder">Year of Register</label>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="col-12">
+
+                <select id="inputState" class="form-select" style="background-color: rgb(211, 234, 249);">
+                    <option selected>YYYY</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+        <!--present name-->
+        <div class="d-flex flex-row">
+            <div class="col-12 mt-2">
+                <label for="inputprementname" class="form-label fw-bolder">Prement's name</label>
+                <input type="text" class="form-control" style="background-color: rgb(211, 234, 249);" id="inputprementname" placeholder="Enter Your perment name">
+            </div>
+        </div>
+        <!--registration document-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputRegistration" class="form-label fw-bolder">Registration Document</label>
+        </div>
+
+        <div class="d-flex flex-row mt-2">
+            <div class="newseletter-footer input-group mb-3">
+                   
+                <input type="text" class="form-control "  style="background-color: rgb(211, 234, 249);" placeholder="Upload your registration document" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <button class="btn btn-light text-primary newseletter-btn btn-sm p1" type="button" id="button-addon2">Upload</button>
+              
+            </div>
+        </div>
+
+        <!--state medical contact-->
+        <div class="d-flex flex-row mt-2">
+            <label for="inputStatemedicalcontact" class="form-label fw-bolder">State Medical Contact</label>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="col-12">
+
+                <select id="inputState" class="form-select" style="background-color: rgb(211, 234, 249);">
+                    <option selected>Select your state medical contact</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    </div>
+<!--button-->
+
+<div class="pb-3"style=" background-color: grey; ">
+    <div class="bg-primary ms-3 me-3 mb-3">
+       <div class="d-flex flex-row justify-content-center">
+        <button type="button" class="btn btn-primary">Save</button>
+       </div>
+    </div>
+
+</div>
+</body>
+
+</html>

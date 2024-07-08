@@ -1,0 +1,43 @@
+@media (max-width:600px){
+    .ml{
+       
+      
+      width: 100%;
+     text-align: center;
+       
+    }
+    .ml-1{
+        width:100%;
+    }
+    .c1{
+        text-align: center;
+    }
+    .mar-ml{
+        margin-top: 10px;
+    }
+    .ml-2{
+        text-align: center;
+        width: 100%;
+    }
+    .c3{
+        display: flex;
+        justify-content: center;
+    }
+}
+    @media(min-width:600px){
+        .tb-s{
+            padding-right: 20px;
+        }
+        .c3{
+            display: flex;
+            justify-content: end;
+        }
+       
+    }
+
+@media screen and (min-device-width: 769px) and (max-device-width:1024px) {
+    .pad{
+      padding-left: 50px;
+      
+    }
+}

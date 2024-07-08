@@ -1,0 +1,24 @@
+@media(max-width:425px){
+    .ml{
+        width: 100%;
+        text-align: center;
+    }
+    .ml-screen img{
+        width: 90%;
+    }
+}
+@media(min-width:426px){
+    .space{
+        padding-left: 15px;
+        
+    }
+    .space-right{
+        padding-right:20px ;
+    }
+    .space-1{
+        padding-left: 20px;
+    }
+    .mar{
+        margin-bottom: 25%;
+    }
+}

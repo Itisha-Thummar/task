@@ -1,0 +1,30 @@
+.child{
+    background-color: aqua;
+   
+    border-radius: 20px;
+    position: absolute;
+    top:20%;
+    left:34%;
+    transform: (-50% -50%);
+   
+   }
+   /*.child:hover{
+    animation-name: box;
+   animation-duration: 2s;
+   }
+
+   @keyframes box {
+    from {background-color:aqua;}
+    to {background-color:blue;}
+  }*/
+/* img:hover{
+  color:antiquewhite;
+} */
+
+.child img:hover {
+    filter: invert(1);
+    background-color: #e9cbcb;
+    border-radius: 18px;
+    display: inline-block;
+    overflow: hidden;
+}

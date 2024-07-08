@@ -1,0 +1,81 @@
+.lightning-pro {
+    background: url('confetti shapes.svg') no-repeat;
+    padding-bottom: 18vw;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+
+.spacs-average {
+    margin-top: -16vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-small {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:767px){
+    .spacs-average {
+        margin-top: 0;
+    }
+
+    .header-logo {
+        order: 1;
+        max-width: 150px;
+    }
+
+    .header-logo svg {
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav.navbar {
+        order: 3;
+        padding: 0;
+    }
+
+    .header-button {
+        order: 2;
+        min-width: 100px;
+    }
+}
+
+@media(max-width:375px){
+    .ml{
+        width: 100%;
+    }
+    .ml-screen{
+        width: 100%;
+        text-align: center;
+    }
+    .c1{
+        width: 100%;
+        text-align: center;
+       
+    }
+   
+}
+.back-color{
+background-color:rgb(204, 230, 255);
+}
+.footer-color{
+    background-color: rgb(7, 7, 64);
+}
+@media(max-width:426px){
+    .flex-space{
+      display: flex;
+      justify-content: center;
+    }
+}
+@media(min-width:426px){
+    .flex-space{
+      display: flex;
+      justify-content: space-between;
+    }
+}

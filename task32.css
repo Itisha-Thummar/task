@@ -1,0 +1,39 @@
+.text-color{
+    color: blueviolet;
+}
+.bor{
+    border:1px solid ghostwhite;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin: 20px;
+}
+.bor-1{
+    border:1px solid  blueviolet;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin: 20px;
+}
+.bor-btn{
+    background-color: rgb(16, 16, 74);
+    border-radius: 20px;
+   padding: 4px;
+}
+@media(max-width:600px){
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-device-width: 426px) and (max-device-width:768px) {
+    .btn-size{
+       
+    }
+}

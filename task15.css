@@ -1,0 +1,132 @@
+.text{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+   
+    
+}
+.text-1{
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    margin-top:10px;
+   
+}
+.searchbar{
+    margin-top: 10px;
+}
+
+.fa-question{
+    color:white;
+    height: 40px;
+    width:40px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+}
+.box-1{
+    font-weight: 700;
+    color:black;
+    text-align: left;
+    
+}
+.text-11{
+    color:black;
+    font-size: 10px;
+    text-align:left;
+   
+   
+}
+.fa-user{
+    color:white;
+    height: 40px;
+    width:40px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+
+}
+.fa-id-badge{
+    color:white;
+    height: 40px;
+    width:40px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+}
+.fa-trophy{
+    color:white;
+    height: 50px;
+    width:50px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+}
+.fa-file-lines{
+    color:white;
+    height: 50px;
+    width:50px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+}
+.fa-check{
+    color:white;
+    height: 40px;
+    width:40px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .text {
+        text-align: center;
+    }
+  }
+  .second{
+   padding: 8px;
+    background-color:blue;
+    border-radius: 20%;
+    
+
+    
+  }
+  .fa-book{
+    color:white;
+    height: 50px;
+    width:50px;
+    border-radius: 20%;
+    background-color: blue;
+    padding-top: 10px;
+  }
+  .third{
+    padding: 8px;
+    background-color:blue;
+    border-radius: 20%;
+    
+  }
+  
+  @media (max-width: 768px) {
+    
+    .copyright{
+        display: flex;
+        justify-content: center;
+    }
+    .box-1{
+        text-align: center;
+    }
+    .text-11{
+        text-align: center;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    
+    input {
+            width: 500px;
+       
+    }
+  }
+ 
+ 

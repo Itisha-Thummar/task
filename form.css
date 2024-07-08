@@ -1,0 +1,28 @@
+.man-image img{
+ width: 70px;
+ height: 70px ;
+ border-radius: 50%;
+ border: 2px solid blue;
+}
+.c1{
+    position: absolute;
+   
+    right: 30px;
+}
+.newseletter-footer {
+    position: relative;
+}
+
+.newseletter-footer .form-control {
+    padding-right: 110px;
+}
+
+.newseletter-footer .newseletter-btn {
+    position: absolute;
+    right: 2px;
+    top: -12px;
+    border-radius: 0;
+   
+  margin: 15px;
+    z-index: 5;
+}

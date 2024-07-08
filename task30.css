@@ -1,0 +1,34 @@
+.background-color{
+    background-color: #ccc;
+}
+@media(max-width:425px){
+    .c1{
+        width: 100%;
+        text-align: center;
+    }
+    .c2{
+        width: 100%;
+       
+    }
+    .space{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mar{
+        margin-left:5px;
+        margin-right: 5px;
+    }
+}
+@media (min-width:426px){
+.mar{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.left-space{
+    margin-left:10px;
+}
+.left-space-1{
+   padding-left: 19px;
+}
+}

@@ -1,0 +1,113 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+.navdiv{
+    border-color: white;
+    background-color:black;
+    
+    width: 100%;
+    line-height: 40px;
+    display: inline-block;
+    border:12px solid rgb(255, 255, 255);
+    
+ }
+ 
+ .footer{
+    background-color:rgb(5, 137, 106);
+}
+.footer-cls{
+    
+    margin-top: 20px;
+}
+
+
+.text-111{
+   
+    color:white;
+   margin-top: 30px;
+    font-weight: bolder;
+    
+}
+.text-222{
+    
+    color:white;
+    margin-top: 30px;
+    font-weight: bolder;
+
+}
+.text-333{
+    
+    color:white;
+    margin-top: 30px;
+    font-weight: bolder;
+
+}
+.fa-facebook-f{
+    color:white;
+    padding-right: 8px;
+    
+}
+.fa-twitter{
+    color:white;
+    padding-right: 8px;
+}
+.fa-instagram{
+    color:white;
+    padding-right: 8px;
+}
+.fa-google-plus-g{
+    color:white;
+    padding-right: 8px;
+}
+.fa-envelope{
+    color:white;
+    padding-right: 8px;
+}
+.icon{
+display: inline-block;
+padding-top: 20px;
+
+}
+#Layer_1{
+fill:white;
+height: 10px;
+width: 10px;
+}
+.faq{
+padding-right: 15px;
+}
+.get{
+padding-left: 40px;
+}
+.con1{
+font-weight: bolder;
+color:black;
+}
+.fa-search{
+background-color: gray;
+color: white;
+width: 30px;
+height: 29px;
+padding: 6px;
+}
+.ico{
+display: inline-block;
+}
+input{
+width: calc(100% - 30px);
+}
+.con8{
+display: inline-block;
+}
+.fa-rectangle-wide{
+color:gainsboro;
+}
+.container-fuild {
+padding: 0 15px;
+}
+.navdiv a:hover{
+
+background-color:palevioletred;
+  
+}

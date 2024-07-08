@@ -1,0 +1,21 @@
+.child{
+    background-color: yellow;
+   width: 40%;
+   
+    position: absolute;
+    top:38%;
+    left:30%;
+    transform: (-50% -50%);
+   
+   }
+   .child:hover{
+    animation-name: color;
+    animation-duration: 3s;
+   }
+   @keyframes color {
+    from{background-color: yellow;}
+    to{background-color: brown;}
+    
+   }
+  
+  

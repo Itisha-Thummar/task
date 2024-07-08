@@ -1,0 +1,149 @@
+*{
+    text-decoration: none;
+   
+    
+}
+.navbar
+{
+    background-color: black;
+    padding-left: 15px;
+    
+    
+    box-sizing: border-box;
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color:white
+
+}
+li{
+    list-style:none;
+    display: inline-block;
+}
+li a{
+    margin-right: 20px;
+}
+
+.list{
+    line-height:30px;
+    padding-right: 50px;
+    
+    
+}
+.box2{
+    width: 20%;
+    height:556px;
+    background-color: rgb(241, 244, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+}
+.first{
+    display:flex;
+    flex-direction: row;
+}
+
+.p1{
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+.b1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left:110px;
+    margin-right: 150px;
+    
+    background-color: gray;
+}
+.b2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+    background-color: gray;
+    margin-right: 150px;
+}
+.b3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 150px;
+    background-color: gray;
+}
+.b4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 150px;
+    background-color: gray;
+}
+
+.box4{
+    display: flex;
+    flex-direction: row;
+    
+}
+.l1{
+    margin-left: 110px;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+}
+.l2{
+    margin-left: 150px;
+}
+.l3{
+    margin-left: 150px;
+}
+.l4{
+    margin-left: 160px;
+}
+.p2{
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.box6{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.box7{
+    display: flex;
+    flex-direction: row;
+}
+table,th,tr,td{
+    border-collapse: collapse;
+    width: 1090px;
+    text-align: left;
+  border-bottom: 1px solid #ddd;
+  line-height: 18px;
+  
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+a:hover {
+    background-color: rgb(144, 144, 229);
+  }

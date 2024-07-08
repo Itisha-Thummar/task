@@ -1,0 +1,57 @@
+.container img{
+    padding-top: 20px;
+    border-radius: 60%;
+    height: 160px;
+    width: 140px;
+    
+    text-align: center;
+    }
+    .myimage img{
+       
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+    .images img{
+        height: 150px;
+        width: 150px;
+    }
+    .images-1 img{
+        height: 180px;
+        width: 180px;
+    }
+    .fa-star{
+        font-size: 15px;
+
+    }
+    .fa-message{
+        font-size: 15px;
+    }
+    .fa-arrow-rotate-left{
+        font-size: 15px;
+    }
+    
+    @media(max-width:600px){
+        .images-1 img{
+            width: 70%;
+           
+        }
+       .ml{
+        text-align:center;
+       }
+       .ml-1{
+        width: 100%;
+        font-size:12px;
+        text-align: center;
+       }
+    }
+    @media screen and (min-device-width: 0px) and (max-device-width:320px) {
+.ml-screen{
+    font-size:11px;
+}
+.images-1 img{
+    width: 80%;
+    text-align: center;
+   
+}
+    }
